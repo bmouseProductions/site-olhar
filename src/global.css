@@ -41,7 +41,8 @@ html, body {
     display: none;
 }
 
-:where(.css-dev-only-do-not-override-qnu6hi).ant-tabs .ant-tabs-tab+.ant-tabs-tab{
+:where(.css-dev-only-do-not-override-qnu6hi).ant-tabs .ant-tabs-tab+.ant-tabs-tab, 
+:where(.css-qnu6hi).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
     margin: 0px;
 }
 

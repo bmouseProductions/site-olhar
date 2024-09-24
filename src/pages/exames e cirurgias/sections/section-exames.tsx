@@ -1,29 +1,49 @@
+
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
+
 import { exames } from '../../../data/exames-data';
 
+import 'swiper/css';
+
 export default function SectionExames(){
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const element = document.getElementById(hash.replace('#', ''));
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [hash]);
     return (
-        <section className="container mx-auto py-10 px-5 md:px-10 lg:px-14 xl:px-16">
+        <section id='exames' className="container mx-auto pt-10 xl:pt-14 px-5 md:px-0 md:pl-10 lg:pl-14 xl:pl-16 space-y-5  ">
+            
             <h2 className="mb-2 text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#3d405b] ">
                 Nossos <span className="text-[#81b29a]">Exames:</span>
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus expedita impedit doloribus voluptas, reprehenderit nesciunt nostrum odit magnam numquam quas, quisquam sapiente molestias labore fugit, vitae delectus? Obcaecati, perferendis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum sapiente illum distinctio error cum officiis sit non voluptate corporis numquam facere quam assumenda eum magnam a nemo, culpa harum?
+                Na nossa clínica oftalmológica, priorizamos a saúde dos seus olhos com um atendimento completo e especializado.
+                Oferecemos uma ampla gama de exames para diagnosticar condições oculares e monitorar sua saúde visual. Nossa 
+                equipe utiliza tecnologia avançada para garantir precisão e conforto durante cada procedimento.
             </p>
 
             <Swiper
                 spaceBetween={20}
                 slidesPerView={1.2}
+                slidesPerGroupSkip={1}
                 loop={true}
                 breakpoints={{
                     768: { slidesPerView: 2.1 },
-                    1280: { slidesPerView: 3.1 },
+                    1024: { slidesPerView: 2.2 },
+                    1280: { slidesPerView: 3.2 },
                 }}
                 modules={[Autoplay]}
-                className='md:!p-5 mt-10'
+                className=' mt-10 '
             >
                 {exames.map((exame, index) => (
                     <SwiperSlide key={index}>

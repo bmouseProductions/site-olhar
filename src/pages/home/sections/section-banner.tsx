@@ -15,22 +15,22 @@ export default function SectionBanner() {
             {
                 widthScreen >= 768 ? 
                 //BANNER DESKTOP
-                <div className='container mx-auto py-10 md:px-10 lg:px-14 xl:px-16'>
+                <div className='container mx-auto py-10 xl:py-14 md:px-10 lg:px-14 xl:px-16'>
                     <div className='relative '>
                         <div className='relative flex justify-center'>
                             <img 
                                 src={backgroundBanner}
                                 alt="banner  com palavras desfocadas" 
-                                className="w-full "
+                                className="w-full shadow rounded-3xl"
                             />
 
                             <img 
                                 src={doutorasDesktop}
                                 alt="banner  com doutoras Marina e Cristina" 
-                                className="w-1/2 absolute z-10 bottom-0 ml-auto "
+                                className="w-[42%] absolute z-10 bottom-0 ml-auto "
                             />
 
-                            <h1 className='mt-5 absolute text-6xl xl:text-7xl 2xl:text-8xl uppercase text-white '>
+                            <h1 className='mt-5 absolute text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-white '>
                                 seu <span className='font-bold'>olhar</span> é nosso <span className='font-bold'>foco</span>
                             </h1>
                         </div>
@@ -64,7 +64,7 @@ export default function SectionBanner() {
                         <a
                             href=''
                             target='_blank'
-                            className=' px-5 pt-2 pb-3 font-semibold lg:text-lg uppercase text-white bg-[#160f29] rounded-3xl shadow'
+                            className=' px-5 pt-2 pb-2.5 font-semibold lg:text-lg uppercase text-white bg-[#160f29] rounded-3xl shadow'
                         >
                             Faça seu agendamento
                         </a>
@@ -73,36 +73,14 @@ export default function SectionBanner() {
             }
             
 
-            <div className='container mx-auto px-5 py-10 md:px-10 lg:px-14 xl:px-16 mt-7 grid grid-cols-1 md:grid-cols-2 gap-5'>
+            <div className='container mx-auto py-10 md:pb-14 px-5 md:px-10 lg:px-14 xl:px-16 grid grid-cols-1 md:grid-cols-2 gap-5'>
                 <NavLink 
-                    to=""
-                    className='p-4 space-y-3 bg-white rounded-2xl shadow-lg hover:shadow-sm transition-all'
+                    to="/exames-cirugias#exames"
+                    className='p-4 space-y-3 text-[#3d405b] bg-white rounded-2xl shadow-lg hover:shadow-sm transition-all'
                 >
                     <div className='w-fit p-3 bg-[#3d405b] rounded-full '>
                         <img 
                             src={itestocopioIcon} 
-                            alt="icon itestoscópio"
-                        />
-                    </div>
-
-                    <h3 className='text-2xl font-semibold text-[#3d405b] '>Cirurgias</h3>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod unde cupiditate cum assumenda veritatis fugiat corporis, provident voluptas nostrum delectus minus iste deleniti eveniet obcaecati sapiente, quam est iusto?
-                    </p>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>
-                </NavLink>
-
-                <NavLink 
-                    to=""
-                    className='p-4 space-y-3 bg-[#3d405b] rounded-2xl shadow-lg hover:shadow-sm transition-all text-white'
-                >
-                    <div className='w-fit p-3 bg-white rounded-full '>
-                        <img 
-                            src={itestocopioAzulIcon} 
                             alt="icon itestoscópio"
                             className='!text-red-700 '
                         />
@@ -111,7 +89,33 @@ export default function SectionBanner() {
                     <h3 className='text-2xl font-semibold'>Exames</h3>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod unde cupiditate cum assumenda veritatis fugiat corporis, provident voluptas nostrum delectus minus iste deleniti eveniet obcaecati sapiente, quam est iusto?
+                        Cuide da sua saúde visual com nossos exames oculares completos! Utilizamos tecnologia avançada para 
+                        realizar diagnósticos precisos e monitorar condições oculares. Agende sua consulta e descubra como podemos 
+                        ajudar você a manter uma visão saudável!
+                    </p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </NavLink>
+                
+                <NavLink 
+                    to="/exames-cirugias#cirurgias"
+                    className='p-4 space-y-3 text-white bg-[#3d405b] rounded-2xl shadow-lg hover:shadow-sm transition-all'
+                >
+                    <div className='w-fit p-3 bg-white rounded-full '>
+                        <img 
+                            src={itestocopioAzulIcon} 
+                            alt="icon itestoscópio"
+                        />
+                    </div>
+
+                    <h3 className='text-2xl font-semibold '>Cirurgias</h3>
+
+                    <p>
+                        Restaurar a sua visão é a nossa prioridade! Na nossa clínica, oferecemos cirurgias oculares realizadas
+                        por especialistas altamente capacitados. Com um atendimento personalizado, garantimos que você receba o 
+                        melhor cuidado. Agende sua avaliação e dê o primeiro passo para uma visão clara!
                     </p>
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

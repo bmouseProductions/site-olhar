@@ -3,10 +3,10 @@ import 'swiper/css';
 
 export default function SectionDepoimentos() {
     return (
-        <section className="container md:min-h-[550px] m-auto py-10 px-5 md:pl-10 lg:pl-14 xl:pl-16 flex flex-col md:flex-row md:items-center md:gap-24">
-            <div className='md:w-2/3 space-y-5 md:space-y-10'>
-                <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold ">
-                    O que nossos <span className="text-[#00514b] ">pacientes</span> falam
+        <section className="container md:min-h-[550px] m-auto py-10 xl:py-14 flex flex-col md:flex-row md:items-center md:gap-24">
+            <div className='md:w-2/3 space-y-5 md:space-y-10 px-5 md:pl-10 lg:pl-14 xl:pl-16'>
+                <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#3d405b] ">
+                    O que nossos <span className="text-[#81b29a] ">pacientes</span> falam
                 </h2>
 
                 <p>
@@ -21,7 +21,7 @@ export default function SectionDepoimentos() {
                     1040: { slidesPerView: 1.8 },
                 }}
                 loop={true}
-                className='w-full md:w-1/2 mt-5'
+                className='w-full !pl-5 md:w-1/2 mt-5'
             >
                 <SwiperSlide>
                     <div className='w-full h-[300px] px-5 py-10 flex flex-col justify-center text-center text-white bg-[#3d405b] rounded-xl'>

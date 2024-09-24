@@ -62,11 +62,11 @@ export default function Footer() {
                             href="tel:+553438215014"
                             target="_blank"
                         >
-                            <strong>Fone:</strong> (34) 3821 5014
+                            <strong>Fone:</strong> (34) 3821-5014
                         </a>
 
                         <a 
-                            href="http://"
+                            href="https://wa.me/5534999120030?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20marcar%20uma%20consulta%20por%20gentileza."
                             target="_blank"
                         >
                             <strong>Whatsapp</strong> (34) 99912-0030

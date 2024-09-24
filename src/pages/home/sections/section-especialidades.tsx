@@ -5,7 +5,7 @@ import { especialidades } from '../../../data/especialidades-data';
 
 export default function SectionEspecialidades() {
     return (
-        <section className="container mx-auto py-10 px-5 md:px-10 lg:px-14 xl:px-16">
+        <section className="container mx-auto py-10 xl:py-20 pl-5 md:pl-10 lg:pl-14 xl:pl-16">
             <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#3d405b] ">
                 Nossas <span className="text-[#81b29a] "> Especialidades</span>
             </h2>
@@ -19,7 +19,7 @@ export default function SectionEspecialidades() {
                     1280: { slidesPerView: 3.1 },
                 }}
                 modules={[Autoplay]}
-                className='md:!p-5 mt-10'
+                className='md:!py-5 mt-10'
             >
                 {especialidades.map((especialidade, index) => (
                     <SwiperSlide key={index}>

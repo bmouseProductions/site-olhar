@@ -6,7 +6,6 @@ import {
 import { NavLink } from "react-router-dom";
 
 import logo from '../assets/images/logo.svg'
-import ButtonContato from "./modal-contato";
 
  
 export default function Header() {
@@ -55,7 +54,14 @@ export default function Header() {
           Convênios
         </NavLink>
         
-        <ButtonContato children='Contato' variant="primary" />
+        <a 
+          href="https://wa.me/5534999120030?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20marcar%20uma%20consulta%20por%20gentileza." 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="w-fit px-5 pt-1 pb-1.5 rounded-2xl text-lg md:text-xl uppercase transition-all border-2 border-[#81b29a] text-white bg-[#81b29a]  hover:bg-transparent hover:text-[#81b29a]"
+        >
+          Contato
+        </a>
       </nav>
     );
   }
