@@ -20,19 +20,15 @@ export default function SectionBanner() {
                 <div className='container mx-auto py-10 xl:py-14 md:px-10 lg:px-14 xl:px-16'>
                     <div className='relative'>
                         <div className='relative flex justify-center'>
-                            <LazyLoadImage 
+                            <img 
                                 src={backgroundBanner}
                                 alt="banner com palavras desfocadas" 
                                 className="w-full shadow rounded-3xl"
                             />
 
-                            <LazyLoadImage 
+                            <img 
                                 src={doutorasDesktop}
                                 alt="banner com doutoras Marina e Cristina" 
-                                effect="blur"
-                                wrapperProps={{
-                                    style: {transitionDelay: "0.3s", position: "absolute", zIndex: "10", bottom:"0", width: "100%", display: "flex", justifyContent: "center"},
-                                }}
                                 className="!w-[42%] !absolute !z-10 !bottom-0 !ml-auto"
                             />
 
@@ -59,13 +55,9 @@ export default function SectionBanner() {
                         seu <span className='font-bold'>olhar</span> é nosso <span className='font-bold'>foco</span>
                     </h1>
 
-                    <LazyLoadImage 
+                    <img 
                         src={doutorasMobile} 
                         alt="banner com doutoras Marina e Cristina"
-                        effect="blur"
-                        wrapperProps={{
-                            style: {transitionDelay: "0.3s", width: "100%"},
-                        }}
                         className='w-full'
                     />
 
