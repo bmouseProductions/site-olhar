@@ -53,6 +53,66 @@ export default function SectionDepoimentos() {
                         </p>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className='w-full h-[300px] px-5 py-10 flex flex-col justify-center gap-3 text-center text-white bg-[#3d405b] rounded-xl'>
+                        <h3 className='text-2xl font-semibold'>
+                            Jucelina de Oliveira
+                        </h3>
+
+                        <span className='text-center'>
+                            Patos de minas
+                        </span>
+
+                        <p className='text-center'>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis?"
+                        </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='w-full h-[300px] px-5 py-10 flex flex-col justify-center gap-3 text-center text-white bg-[#3d405b] rounded-xl'>
+                        <h3 className='text-2xl font-semibold'>
+                            Jucelina de Oliveira
+                        </h3>
+
+                        <span className='text-center'>
+                            Patos de minas
+                        </span>
+
+                        <p className='text-center'>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis?"
+                        </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='w-full h-[300px] px-5 py-10 flex flex-col justify-center gap-3 text-center text-white bg-[#3d405b] rounded-xl'>
+                        <h3 className='text-2xl font-semibold'>
+                            Jucelina de Oliveira
+                        </h3>
+
+                        <span className='text-center'>
+                            Patos de minas
+                        </span>
+
+                        <p className='text-center'>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis?"
+                        </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='w-full h-[300px] px-5 py-10 flex flex-col justify-center gap-3 text-center text-white bg-[#3d405b] rounded-xl'>
+                        <h3 className='text-2xl font-semibold'>
+                            Jucelina de Oliveira
+                        </h3>
+
+                        <span className='text-center'>
+                            Patos de minas
+                        </span>
+
+                        <p className='text-center'>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis?"
+                        </p>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </section>
     )
