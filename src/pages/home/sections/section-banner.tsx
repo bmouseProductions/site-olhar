@@ -1,5 +1,10 @@
+import { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
+
+import { useLoading } from '../../../contexts/loading-provider'
+
 import ModalVideo from '../../../components/modal-video-home'
+
 import backgroundBanner from '../../../assets/images/background-banner.svg'
 import doutorasDesktop from '../../../assets/images/doutoras.svg'
 import doutorasMobile from '../../../assets/images/doutoras-mobile.svg'
@@ -7,6 +12,19 @@ import itestocopioIcon from '../../../assets/images/icons/itestocopio.svg'
 import itestocopioAzulIcon from '../../../assets/images/icons/itestocopio-azul.svg'
 
 export default function SectionBanner() {
+    const { setLoading } = useLoading();
+
+    const handleImageLoad = () => {
+        setLoading(false); 
+    };
+
+    const handleImageError = () => {
+        setLoading(false);
+    };
+
+    useEffect(() => {
+        setLoading(true); 
+    }, [setLoading]);
 
     const widthScreen = window.innerWidth
 
@@ -22,12 +40,16 @@ export default function SectionBanner() {
                                 src={backgroundBanner}
                                 alt="banner  com palavras desfocadas" 
                                 className="w-full shadow rounded-3xl"
+                                onLoad={handleImageLoad}
+                                onError={handleImageError}
                             />
 
                             <img 
                                 src={doutorasDesktop}
                                 alt="banner  com doutoras Marina e Cristina" 
                                 className="w-[42%] absolute z-10 bottom-0 ml-auto "
+                                onLoad={handleImageLoad}
+                                onError={handleImageError}
                             />
 
                             <h1 className='mt-5 absolute text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-white '>
@@ -58,6 +80,8 @@ export default function SectionBanner() {
                         src={doutorasMobile} 
                         alt="banner  com doutoras Marina e Cristina"
                         className='w-full'
+                        onLoad={handleImageLoad}
+                        onError={handleImageError}
                     />
 
                     <div className='absolute -bottom-5 w-full flex justify-center'>
