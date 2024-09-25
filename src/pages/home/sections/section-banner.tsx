@@ -1,6 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import ModalVideo from '../../../components/modal-video-home';
 import backgroundBanner from '../../../assets/images/background-banner.svg';
