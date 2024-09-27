@@ -23,7 +23,7 @@ export default function SectionConveniosAssistidos() {
 
     return (
         <section className="container mx-auto py-10 xl:py-14 px-5 md:px-10 lg:px-14 xl:px-16">
-            <h1 className="mt-5 text-[58px] md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-[#3d405b] text-center">
+            <h1 className="mt-5 text-[58px] md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-[#3d405b] font-bold text-center">
                 Convenios
             </h1>
             <p className='mt-5'>

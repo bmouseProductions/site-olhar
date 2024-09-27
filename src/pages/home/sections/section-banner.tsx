@@ -31,12 +31,12 @@ export default function SectionBanner() {
                             />
 
                             <h1 className='mt-5 absolute text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-white'>
-                                seu <span className='font-bold'>olhar</span> é nosso <span className='font-bold'>foco</span>
+                                seu <span className='text-[#3d405b] font-bold'>olhar</span> é nosso <span className='text-[#81b29a] font-bold'>foco</span>
                             </h1>
                         </div>
 
                         <a
-                            href=''
+                            href='https://wa.me/5534999120030?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20marcar%20uma%20consulta%20por%20gentileza.'
                             target='_blank'
                             className='absolute z-20 left-5 lg:left-10 bottom-5 lg:bottom-10 px-5 pt-2 pb-3 font-semibold lg:text-lg uppercase text-black bg-white rounded-3xl shadow'
                         >
@@ -61,7 +61,7 @@ export default function SectionBanner() {
 
                     <div className='absolute -bottom-5 w-full flex justify-center'>
                         <a
-                            href=''
+                            href='https://wa.me/5534999120030?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20marcar%20uma%20consulta%20por%20gentileza.'
                             target='_blank'
                             className='px-5 pt-2 pb-2.5 font-semibold lg:text-lg uppercase text-white bg-[#160f29] rounded-3xl shadow'
                         >

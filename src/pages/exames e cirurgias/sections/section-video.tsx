@@ -4,7 +4,7 @@ export default function SectionVideo() {
     return (
         <section className="container mx-auto py-10 xl:py-14 px-5 md:px-10 lg:px-14 xl:px-16">
             <h1 className="mt-5 mb:10 md:mb-14 text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl uppercase text-[#3d405b] text-center">
-                Nossos serviços
+                Nossos <span className="text-[#81b29a] font-bold">serviços</span>
             </h1>
 
             <iframe

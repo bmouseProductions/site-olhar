@@ -6,6 +6,19 @@ html, body {
     background-color: #f5f6fa;
 }
 
+/*ESTILIZAÇÃO SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background: #797979;
+}
+::-webkit-scrollbar-thumb {
+    background: #81b29a;
+    border-radius: 8px;
+}
+
+/* ESTILIZAÇÃO TABS */
 .ant-tabs-nav{
     background-color: #ffffff6e;
     border-radius: 24px;
