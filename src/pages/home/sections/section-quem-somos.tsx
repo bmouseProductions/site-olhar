@@ -27,29 +27,26 @@ export default function SectionQuemSomos() {
                 <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white text-center">
                     Afinal, quem <span className="text-[#3d405b] ">somos?</span> 
                 </h2>
-
                 
-                <p className='my-5 text-white'>
-                    O Olhar Centro Oftalmológico nasceu da necessidade de se oferecer um centro de saúde ocular integral, 
-                    objetivo e resolutivo. Desejamos ampliar o atendimento oftalmológico na cidade de Patos de Minas e em 
-                    toda região, oferecendo à comunidade um centro de referência para atendimentos eletivos, urgências, 
-                    exames oftalmológicos, além de cirurgias oculares.
-                </p>
+                <iframe
+                    className="mt-5 mx-auto w-full h-[200px] md:max-w-[600px] md:h-[350px] lg:max-w-[700px] lg:h-[415px] xl:max-w-[1000px] xl:h-[515px] rounded-2xl"
+                    src="https://www.youtube.com/embed/nzQHfJRZTck?si=f7jh6ywVAttrFAZi"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                />
 
-                <div className='mt-16 grid grid-cols-1 md:grid-cols-2 gap-7'>
-                    <div className=' text-white'>
-                        <Tabs 
-                            defaultActiveKey="1" 
-                            items={items} 
-                            className='text-white items-center text-base'
-                        />
-                    </div>
-                    <iframe
-                        className="mx-auto w-full h-[220px] lg:h-[250px] xl:h-[350px] 2xl:h-[400px] rounded-3xl"
-                        src="https://www.youtube.com/embed/XB0J3mVluWA?si=JCwsAXOa7HcIC3Zx"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                <div className='mt-16 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
+                    <Tabs 
+                        defaultActiveKey="1" 
+                        items={items} 
+                        className='text-white items-center text-base'
                     />
+                    <p className='my-5 text-white'>
+                        O Olhar Centro Oftalmológico nasceu da necessidade de se oferecer um centro de saúde ocular integral, 
+                        objetivo e resolutivo. Desejamos ampliar o atendimento oftalmológico na cidade de Patos de Minas e em 
+                        toda região, oferecendo à comunidade um centro de referência para atendimentos eletivos, urgências, 
+                        exames oftalmológicos, além de cirurgias oculares.
+                    </p>
                 </div>
             </div>
         </section>

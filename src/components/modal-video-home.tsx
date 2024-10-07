@@ -46,7 +46,7 @@ export default function ModalVideo({ children, ...rest }: ButtonProps) {
                         
                         <iframe
                             className="mx-auto w-[90%] md:w-[80%] h-[200px] md:h-[515px] xl:h-[550px] rounded-3xl"
-                            src="https://www.youtube.com/embed/XB0J3mVluWA?si=JCwsAXOa7HcIC3Zx"
+                            src="https://www.youtube.com/embed/4yOONHK-a-4?si=dKyHOWyWuiKI3TF1"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         />

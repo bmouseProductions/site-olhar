@@ -1,8 +1,9 @@
-import catarataImage from '../assets/images/especialidades/catarata.webp';
-import glaucomaImage from '../assets/images/especialidades/glaucoma.webp';
-import intraImage from '../assets/images/especialidades/glaucoma.webp';
+import catarataImage from '../assets/images/cirurgias/catarata.webp';
+import glaucomaImage from '../assets/images/cirurgias/glaucoma.webp';
+import refrativaImage from '../assets/images/cirurgias/refrativa.webp';
+import intraImage from '../assets/images/cirurgias/injecao.webp';
 import plasticaImage from '../assets/images/especialidades/plastica-ocular.webp';
-import pterigioImage from '../assets/images/especialidades/catarata.webp';
+import pterigioImage from '../assets/images/cirurgias/pterigio.webp';
 
 interface Cirurgia {
     nome: string;
@@ -42,7 +43,7 @@ export const cirurgias:arrayCirurgias = [
     },
     {
         nome: "Cirurgias Refrativas",
-        imagem: glaucomaImage,
+        imagem: refrativaImage,
         resumo: `As cirurgias refrativas tem o objetivo de corrigir os defeitos de refração (miopia, hipermetropia e 
         astigmatismo) quando a pessoa já não se adapta bem aos óculos ou lentes de contato, ou não deseja usá-los mais.`,
         descricao: `As cirurgias refrativas tem o objetivo de corrigir os defeitos de refração (miopia, hipermetropia e 
