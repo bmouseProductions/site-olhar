@@ -65,13 +65,13 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, service }) => {
             />
           </div>
 
-          <div className='flex-1 p-5'>
+          <div className='flex-1 p-5 overflow-auto'>
             <h3 className='text-2xl text-[#81b29a] font-semibold'>
               {service.nome}
             </h3>
 
             <p 
-              className='mt-2 text-base font-franieLight' 
+              className='mt-2 text-base font-franieLight ' 
               dangerouslySetInnerHTML={{ __html: service.descricao }} 
             />
           </div>
