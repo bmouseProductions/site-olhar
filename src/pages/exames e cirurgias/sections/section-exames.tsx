@@ -20,7 +20,10 @@ export default function SectionExames(){
     
     return (
         <section id='exames' className="container mx-auto py-10 xl:py-14 px-5 md:px-0 md:pl-10 lg:pl-14 xl:pl-16 space-y-5 overflow-hidden">
-            <div className='md:pr-10 lg:pr-14 xl:pr-16'>
+            <div className='md:pr-10 lg:pr-14 xl:pr-16 space-y-5
+            
+            
+             '>
                 <h2 className="mb-2 text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#3d405b] ">
                     Nossos <span className="text-[#81b29a]">Exames:</span>
                 </h2>

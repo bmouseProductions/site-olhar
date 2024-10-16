@@ -20,7 +20,7 @@ export default function SectionCirurgias(){
     
     return (
         <section id='cirurgias' className="container mx-auto py-10 xl:py-14 px-5 md:px-0 md:pl-10 lg:pl-14 xl:pl-16 space-y-5  ">
-            <div className='md:pr-10 lg:pr-14 xl:pr-16'>
+            <div className='md:pr-10 lg:pr-14 xl:pr-16 space-y-5'>
                 <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#3d405b] ">
                     Cirurgias <span className="text-[#81b29a]">Realizadas:</span>
                 </h2>

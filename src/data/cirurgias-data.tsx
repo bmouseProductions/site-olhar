@@ -23,56 +23,62 @@ export const cirurgias:arrayCirurgias = [
             A visão se torna embaçada, dificultando a realização de atividades como leitura, direção de veículos ou qualquer 
             outra atividade importante para a pessoa.
             <br /> <br />
-            Atualmente, a cirurgia utiliza a técnica de facoemulsificação, na qual, através de uma microincisão (2.2 a 2.75mm), 
-            uma fina ponteira dissolve e aspira o conteúdo do cristalino. Por essa mesma abertura, implanta-se uma lente intra-ocular 
-            dobrável que irá substituir o cristalino opacificado. Hoje possuímos diversos tipos de lentes intra-oculares, o que nos 
-            permite na cirurgia de catarata também corrigir o "grau" e garantir maior independência dos óculos ao paciente .
+            Atualmente, a cirurgia utiliza a técnica de facoemulsificação, na qual, através de uma microincisão 
+            (2.2 a 2.75mm), uma fina ponteira dissolve e aspira o conteúdo do cristalino. Por essa mesma abertura, 
+            implanta-se uma lente intraocular dobrável que irá substituir o cristalino opacificado. Hoje, possuímos 
+            diversos tipos de lentes intraoculares, o que nos permite, na cirurgia de catarata, também corrigir o "grau" 
+            e garantir maior independência dos óculos ao paciente.
         `,
     },
+    
     {
         nome: "Cirurgia de Glaucoma",
         imagem: glaucomaImage,
-        resumo: `A cirurgia de glaucoma está indicada apenas nos casos em que não há um controle adequado da pressão ocular 
-        com o uso de medicamentos ou quando há intolerância aos mesmos.`,
-        descricao: `A cirurgia de glaucoma está indicada apenas nos casos em que não há um controle adequado da pressão ocular 
-            com o uso de medicamentos ou quando há intolerância aos mesmos.
+        resumo: `A cirurgia de glaucoma está indicada apenas nos casos em que não há um controle adequado da pressão 
+            ocular com o uso de medicamentos ou quando há intolerância aos mesmos.`,
+        descricao: `A cirurgia de glaucoma está indicada apenas nos casos em que não há um controle adequado da pressão 
+            ocular com o uso de medicamentos ou quando há intolerância aos mesmos.
             <br /> <br />
-            O princípio da cirurgia é a criação de uma via alternativa para a drenagem do humor aquoso. Na maioria dos casos, 
-            forma-se uma fístula entre o espaço intra-ocular e o espaço subconjuntival.
+            O princípio da cirurgia é a criação de uma via alternativa para a drenagem do humor aquoso. Na maioria dos 
+            casos, forma-se uma fístula entre o espaço intraocular e o espaço subconjuntival.
             `,
     },
+
     {
         nome: "Cirurgias Refrativas",
         imagem: refrativaImage,
-        resumo: `As cirurgias refrativas tem o objetivo de corrigir os defeitos de refração (miopia, hipermetropia e 
-        astigmatismo) quando a pessoa já não se adapta bem aos óculos ou lentes de contato, ou não deseja usá-los mais.`,
-        descricao: `As cirurgias refrativas tem o objetivo de corrigir os defeitos de refração (miopia, hipermetropia e 
-            astigmatismo) quando a pessoa já não se adapta bem aos óculos ou lentes de contato, ou não deseja usá-los mais.
+        resumo: `As cirurgias refrativas têm o objetivo de corrigir os defeitos de refração (miopia, hipermetropia 
+            e astigmatismo) quando a pessoa já não se adapta bem aos óculos ou lentes de contato, ou não deseja usá-los mais.`,
+        descricao: `As cirurgias refrativas têm o objetivo de corrigir os defeitos de refração (miopia, hipermetropia 
+            e astigmatismo) quando a pessoa já não se adapta bem aos óculos ou lentes de contato, ou não deseja usá-los mais. 
             Diversas são as técnicas utilizadas, dependendo de cada caso.
             <br /> <br />
             Atualmente, a maioria delas utiliza o Excimer LASER (pelas técnicas de LASIK e PRK), reesculpindo o perfil 
             anterior da córnea, de modo a alterar a sua curvatura, compensando o defeito refracional.
         `,
     },
+
     {
-        nome: "Injeções Intra-Vítreas",
+        nome: "Injeções Intravítreas",
         imagem: intraImage,
-        resumo: `A injeção intravítrea de anti-angiogênico é utilizada para o tratamento de diferentes doenças que afetam 
-        a retina. A medicação é aplicada diretamente no vítreo (região interna e posterior do olho).`,
-        descricao: `A injeção intravítrea de anti-angiogênico é utilizada para o tratamento de diferentes doenças que afetam 
-            a retina. A medicação é aplicada diretamente no vítreo (região interna e posterior do olho).
+        resumo: `A injeção intravítrea de antiangiogênico é utilizada para o tratamento de diferentes doenças que 
+            afetam a retina. A medicação é aplicada diretamente no vítreo (região interna e posterior do olho).`,
+        descricao: `A injeção intravítrea de antiangiogênico é utilizada para o tratamento de diferentes doenças que 
+            afetam a retina. A medicação é aplicada diretamente no vítreo (região interna e posterior do olho).
             <br /> <br />
-            Existem 2 tipos principais de medicamentos que podem ser injetados: os antiangiogênicos (que impedem a formação de 
-            novos vasos ou neovasos) e os corticóides (anti-inflamatórios). Tanto os corticoides quanto os antiangiogênicos são 
-            aplicados para o controle de doenças que levam ao edema ou hemorragia da mácula (região central da retina).
+            Existem 2 tipos principais de medicamentos que podem ser injetados: os antiangiogênicos (que impedem a 
+            formação de novos vasos ou neovasos) e os corticóides (anti-inflamatórios). Tanto os corticoides quanto os 
+            antiangiogênicos são aplicados para o controle de doenças que levam ao edema ou hemorragia da mácula (região 
+            central da retina).
         `
     },
+
     {
         nome: "Plástica Ocular",
         imagem: plasticaImage,
-        resumo: `As plásticas oculares, corrigem o excesso de pele e gordura nas pálpebras, rejuvenescendo o olhar e 
-            melhorando a visão em casos de ptose. Podem ser realizadas nas pálpebras superiores ou inferiores, proporcionando 
-            um aspecto mais descansado.
+        resumo: `As plásticas oculares corrigem o excesso de pele e gordura nas pálpebras, rejuvenescendo o olhar e 
+        melhorando a visão em casos de ptose. Podem ser realizadas nas pálpebras superiores ou inferiores, proporcionando 
+        um aspecto mais descansado.
         `,
         descricao: `
             Existem várias cirurgias realizadas nas pálpebras, entre as mais comuns:
@@ -96,6 +102,7 @@ export const cirurgias:arrayCirurgias = [
             Retirada de lesões palpebrais suspeitas e reconstruções palpebrais. 
         `,
     },
+
     {
         nome: "Pterígio",
         imagem: pterigioImage,
