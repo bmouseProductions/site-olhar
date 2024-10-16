@@ -1,11 +1,11 @@
-import cemig from '../../../assets/images/logos-convenios/logo-cemig.png'
-import copasa from '../../../assets/images/logos-convenios/logo-copasa.png'
-import farsev from '../../../assets/images/logos-convenios/logo-farsev.png'
-import ipsm from '../../../assets/images/logos-convenios/logo-ipsm.png'
-import portal from '../../../assets/images/logos-convenios/logo-portal.png'
-import unimed from '../../../assets/images/logos-convenios/logo-unimed.png'
-import vitalis from '../../../assets/images/logos-convenios/logo-vitalis.png'
-import premium from '../../../assets/images/logos-convenios/premium-logo.png'
+import cemig from '@/assets/images/logos-convenios/logo-cemig.png'
+import copasa from '@/assets/images/logos-convenios/logo-copasa.png'
+import farsev from '@/assets/images/logos-convenios/logo-farsev.png'
+import ipsm from '@/assets/images/logos-convenios/logo-ipsm.png'
+import portal from '@/assets/images/logos-convenios/logo-portal.png'
+import unimed from '@/assets/images/logos-convenios/logo-unimed.png'
+import vitalis from '@/assets/images/logos-convenios/logo-vitalis.png'
+import premium from '@/assets/images/logos-convenios/premium-logo.png'
 
 
 export default function SectionConveniosAssistidos() {

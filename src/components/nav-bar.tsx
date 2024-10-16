@@ -31,6 +31,17 @@ export default function Header() {
         >
           Home
         </NavLink>
+
+        <NavLink 
+          to="/clinica" 
+          onClick={closeMenuIfOpen}
+          className={
+            ({isActive}) => `${isActive ? "text-black" : "text-gray-500"} 
+            text-xl md:text-xl font-montserrat cursor-pointer hover:underline decoration-[#81b29a] underline-offset-8 transition-all`
+          }
+        >
+          A Clínica
+        </NavLink>
   
         <NavLink 
           to="/exames-cirugias" 

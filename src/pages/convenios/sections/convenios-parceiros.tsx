@@ -1,10 +1,10 @@
-import aapi from '../../../assets/images/logos-parceiros/logo-aapi.png'
-import aispemg from '../../../assets/images/logos-parceiros/logo-aispemg.png'
-import assec from '../../../assets/images/logos-parceiros/logo-assec.png'
-import grega from '../../../assets/images/logos-parceiros/logo-grega.png'
-import minasBene from '../../../assets/images/logos-parceiros/logo-minasBene.png'
-import minasMed from '../../../assets/images/logos-parceiros/logo-minasMed.png'
-import sinstrasp from '../../../assets/images/logos-parceiros/logo-sintrasp.png'
+import aapi from '@/assets/images/logos-parceiros/logo-aapi.png'
+import aispemg from '@/assets/images/logos-parceiros/logo-aispemg.png'
+import assec from '@/assets/images/logos-parceiros/logo-assec.png'
+import grega from '@/assets/images/logos-parceiros/logo-grega.png'
+import minasBene from '@/assets/images/logos-parceiros/logo-minasBene.png'
+import minasMed from '@/assets/images/logos-parceiros/logo-minasMed.png'
+import sinstrasp from '@/assets/images/logos-parceiros/logo-sintrasp.png'
 
 export default function SectionConveniosParceiros() {
     const parceiros = [

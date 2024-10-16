@@ -1,10 +1,10 @@
-import catarataImage from '../assets/images/especialidades/catarata.webp'
-import corneaImage from '../assets/images/especialidades/cornea.webp'
-import glaucomaImage from '../assets/images/especialidades/glaucoma.webp'
-import lentesImage from '../assets/images/especialidades/lentes-contato.webp'
-import plasticaImage from '../assets/images/especialidades/plastica-ocular.webp'
-import retinaImage from '../assets/images/especialidades/retina.webp'
-import traumaImage from '../assets/images/especialidades/trauma-ocular.webp'
+import catarataImage from '@/assets/images/especialidades/catarata.webp'
+import corneaImage from '@/assets/images/especialidades/cornea.webp'
+import glaucomaImage from '@/assets/images/especialidades/glaucoma.webp'
+import lentesImage from '@/assets/images/especialidades/lentes-contato.webp'
+import plasticaImage from '@/assets/images/especialidades/plastica-ocular.webp'
+import retinaImage from '@/assets/images/especialidades/retina.webp'
+import traumaImage from '@/assets/images/especialidades/trauma-ocular.webp'
 
 interface Especialidade {
     nome: string;

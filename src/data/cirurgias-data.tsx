@@ -1,9 +1,9 @@
-import catarataImage from '../assets/images/cirurgias/catarata.webp';
-import glaucomaImage from '../assets/images/cirurgias/glaucoma.webp';
-import refrativaImage from '../assets/images/cirurgias/refrativa.webp';
-import intraImage from '../assets/images/cirurgias/injecao.webp';
-import plasticaImage from '../assets/images/especialidades/plastica-ocular.webp';
-import pterigioImage from '../assets/images/cirurgias/pterigio.webp';
+import catarataImage from '@/assets/images/cirurgias/catarata.webp';
+import glaucomaImage from '@/assets/images/cirurgias/glaucoma.webp';
+import refrativaImage from '@/assets/images/cirurgias/refrativa.webp';
+import intraImage from '@/assets/images/cirurgias/injecao.webp';
+import plasticaImage from '@/assets/images/especialidades/plastica-ocular.webp';
+import pterigioImage from '@/assets/images/cirurgias/pterigio.webp';
 
 interface Cirurgia {
     nome: string;

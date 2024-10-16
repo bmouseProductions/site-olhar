@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie-player'
-import error404 from '../../assets/animations/error404.json'
+import error404 from '@/assets/animations/error404.json'
 import { Link } from 'react-router-dom'
 
 export default function ErrorPage(){

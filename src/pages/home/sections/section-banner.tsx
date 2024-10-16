@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
 
-import ModalVideo from '../../../components/modal-video-home';
-import backgroundBanner from '../../../assets/images/background-banner.svg';
-import doutorasDesktop from '../../../assets/images/doutoras.svg';
-import doutorasMobile from '../../../assets/images/doutoras-mobile.svg';
-import itestocopioIcon from '../../../assets/images/icons/itestocopio.svg';
-import itestocopioAzulIcon from '../../../assets/images/icons/itestocopio-azul.svg';
+import ModalVideo from '@/components/modal-video-home';
+import backgroundBanner from '@/assets/images/background-banner.svg';
+import doutorasDesktop from '@/assets/images/doutoras.svg';
+import doutorasMobile from '@/assets/images/doutoras-mobile.svg';
+import itestocopioIcon from '@/assets/images/icons/itestocopio.svg';
+import itestocopioAzulIcon from '@/assets/images/icons/itestocopio-azul.svg';
 
 export default function SectionBanner() {
 

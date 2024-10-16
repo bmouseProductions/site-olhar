@@ -1,5 +1,5 @@
-import { especialidades } from '../../../data/especialidades-data';
-import SlideServices from '../../../components/slider-sevices';
+import { especialidades } from '@/data/especialidades-data';
+import SlideServices from '@/components/slider-sevices';
 
 export default function SectionEspecialidades() {
     return (
