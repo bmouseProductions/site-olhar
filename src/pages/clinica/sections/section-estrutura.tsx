@@ -2,19 +2,39 @@ import ImageGallery from "react-image-gallery";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import image1 from '@/assets/images/institucional/image1.webp'
+import image2 from '@/assets/images/institucional/image2.webp'
+import image3 from '@/assets/images/institucional/image3.webp'
+import image4 from '@/assets/images/institucional/image4.webp'
+import image5 from '@/assets/images/institucional/image5.webp'
+import image6 from '@/assets/images/institucional/image6.webp'
+
+
 export default function SectionEstrutura(){
     const images = [
         {
-          original: "https://picsum.photos/id/1018/1000/600/",
-          thumbnail: "https://picsum.photos/id/1018/250/150/",
+          original: image1,
+          thumbnail: image1,
         },
         {
-          original: "https://picsum.photos/id/1015/1000/600/",
-          thumbnail: "https://picsum.photos/id/1015/250/150/",
+          original: image2,
+          thumbnail: image2,
         },
         {
-          original: "https://picsum.photos/id/1019/1000/600/",
-          thumbnail: "https://picsum.photos/id/1019/250/150/",
+          original: image3,
+          thumbnail: image3,
+        },
+        {
+          original: image4,
+          thumbnail: image4,
+        },
+        {
+          original: image5,
+          thumbnail: image5,
+        },
+        {
+          original: image6,
+          thumbnail: image6,
         },
     ];
 
