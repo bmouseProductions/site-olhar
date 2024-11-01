@@ -113,7 +113,7 @@ export default function Footer() {
                 </div>
 
                 <div className='mt-10 pt-5 flex flex-col gap-5 md:flex-row md:justify-around border-t'>
-                    <span className='text-center'>Copyright © 2024. Olhar</span>
+                    <span className='text-center'>Copyright © 2024 Olhar - CNPJ: 17.764.399/0002-60</span>
 
                     <a 
                         href="https://bmouseproductions.com/"
